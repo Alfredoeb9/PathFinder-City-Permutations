@@ -31,3 +31,12 @@ This program uses Time Complexity of O(N!) due to permutations with Space Comple
 ## Complexity Analysis
 - Time Complexity: O(N!): Based on permutations, 4 cities (3! = 6 loops)
 - Space Complexity: O(N^2): Accessing the matrix [4][4]
+
+## How to run
+Requirements: g++ (C++17)
+
+Compile:
+g++ main.cpp -std=c++17 -O2 -o pathfinder
+
+Run:
+./pathfinder

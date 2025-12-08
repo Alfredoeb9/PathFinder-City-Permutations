@@ -16,7 +16,7 @@ int main() {
         {33, 26, 30, 0}
     };
 
-    vector<int> order = {1, 2, 3};
+    vector<int> order = {1, 2, 3}; // since we have 4 cities with start/end being the original city
     int bestDistance = INT_MAX;    // give me the biggest number you can
     vector<int> bestPath; 
 
